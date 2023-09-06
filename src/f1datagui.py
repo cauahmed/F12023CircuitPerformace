@@ -11,7 +11,7 @@ import flet as ft
 #The main function of the api file is run to import and process the data for the GUI
 apiprocessor.main()
 maindict = (apiprocessor.maindict)
-#The maxpoints variable is reintroduced
+#The maxpoints variable is reintroduced 
 maxpoints = 0.0
 
 def main(page: ft.Page):
