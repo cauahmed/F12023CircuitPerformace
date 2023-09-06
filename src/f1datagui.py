@@ -1,6 +1,6 @@
 #All the data imported and processed here belong to the Ergast API
 #API documentation: http://ergast.com/mrd/
-#The GUI has been made using flet which a python and flutter library made to create desktop and mobile apps.
+#The GUI has been made using flet which is a python and flutter library made to create desktop and mobile apps.
 #Library documentation: https://flet.dev/docs/
 
 #Relevant packages are imported here
