@@ -10,6 +10,7 @@ import flet as ft
 
 #The main function of the api file is run to import and process the data for the GUI
 apiprocessor.main()
+#The global variable maindict is imported. This dict contains all the processed data.
 maindict = (apiprocessor.maindict)
 #The maxpoints variable is reintroduced 
 maxpoints = 0.0
@@ -40,6 +41,7 @@ def main(page: ft.Page):
     #Each data item for each dictionary is extracted and put into the cell of the datatable
     global maxpoints
     for constructor in maindict:
+        #maxpoints is reset here for the next constructor data
         maxpoints = 0.0
         for circuit in maindict[constructor]:
             #The average points/points per race is saved for each circuit for each constructor
