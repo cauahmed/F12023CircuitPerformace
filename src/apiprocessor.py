@@ -40,6 +40,7 @@ def results():
     #All the keys and subkeys within maindict are iterated 
     for constructor in maindict:
         maxpoints = 0.0
+        circuitname = ""
         for circuit in maindict[constructor]:
             averagepoints = maindict[constructor][circuit]['pointsperrace']
             if(averagepoints > maxpoints):

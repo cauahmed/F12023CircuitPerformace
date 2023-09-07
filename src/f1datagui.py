@@ -41,8 +41,11 @@ def main(page: ft.Page):
     #Each data item for each dictionary is extracted and put into the cell of the datatable
     global maxpoints
     for constructor in maindict:
-        #maxpoints is reset here for the next constructor data
+        #variable are reset here for the next constructor data
         maxpoints = 0.0
+        totalpoints = 0.0
+        totalraces = 0
+        circuitname = ""
         for circuit in maindict[constructor]:
             #The average points/points per race is saved for each circuit for each constructor
             averagepoints = maindict[constructor][circuit]['pointsperrace']
