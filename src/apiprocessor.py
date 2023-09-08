@@ -87,7 +87,7 @@ def main():
                 if(updated == False):         
                     createcircuitdetails(constructor, circuitid, totalcircuitpoints, totalcircuitraces, pointsperrace)
                     for Result in Races['Results']:
-                        #This function enables the circuit net poinst to be updated using the results section of the race data
+                        #This function enables the circuit net points to be updated using the results section of the race data
                         calculatecircuitstats(constructor, circuitid, Result)  
             
             #This code only runs in the first run of the circuit loop when the initial circuit dict is empty                
