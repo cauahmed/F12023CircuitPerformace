@@ -22,13 +22,4 @@ Testing methodology:
 I initially imported small datasets and manually calculated the points, races and points per race values for each circuit for each constructor. The program returned the same values for that given dataset. 
 Most used debugging tool: Print statements
 
-Limitations of the program: 
-The api limitation of 1000 means it is not possible to process all the results for a given constructor.
-Possible improvements:
-The apiprocessor.py file can be broken down into further parts.
-The finaldict structure can be improved by introducing relevant headers.
-Sorting controls can be added to the GUI.
-Extensive circuit data can be displayed to gain a deeper perspective.
-Introduction of proper test framework to test the app when its scaled in the future.
-
 I am open to criticism and would happily accept suggestions to improve the code.
